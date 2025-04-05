@@ -1,0 +1,17 @@
+.emoji-game-bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+.emojiCard-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .emojiCard-list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

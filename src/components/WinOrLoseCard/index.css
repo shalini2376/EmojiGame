@@ -1,0 +1,72 @@
+.win-or-lose-navbar {
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #9796f0;
+}
+.win-or-lose-nav-logo-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+}
+.navbar-logo-img {
+  width: 50px;
+}
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  height: 100vh;
+}
+.winning-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid orange;
+  padding: 20px;
+}
+.winning-img {
+  width: 200px;
+  margin-left: 12px;
+}
+.result-heading {
+  color: #ffffff;
+}
+.scorelabel {
+  margin: 2px;
+  font-weight: 500;
+  font-size: 27px;
+  color: #ffffff;
+}
+.scores-para {
+  color: #3e31b5;
+  margin: 4px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.play-again-btn {
+  border: none;
+  outline: none;
+  background-color: #ffce27;
+  color: #000000;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px 0px;
+}
+.losing-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid orange;
+  padding: 20px;
+}
+.score-div {
+  text-align: center;
+}

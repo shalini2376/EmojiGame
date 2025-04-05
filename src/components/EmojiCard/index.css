@@ -1,0 +1,14 @@
+.emoji-card-list-items {
+  list-style-type: none;
+  text-align: center;
+  /* padding: 12px; */
+}
+.emoji-btn {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  outline: none;
+  background-color: transparent;
+  padding: 12px;
+  margin: 18px;
+  cursor: pointer;
+}
